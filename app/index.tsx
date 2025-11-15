@@ -7,9 +7,14 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        padding: 20
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>
+        Welcome to your React Native app powered by Expo and TypeScript!
+      </Text>
+      <Text>Start editing to see some magic happen       
+        .</Text>
     </View>
   );
 }
